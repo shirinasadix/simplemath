@@ -1,0 +1,28 @@
+Metadata-Version: 2.4
+Name: simplemath
+Version: 0.1.0
+Summary: A tiny example Python package with simple arithmetic classes.
+Author: Your Name
+License: MIT
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: license-file
+
+# simplemath
+
+A tiny example Python package with simple arithmetic classes.
+
+## Install (editable for development)
+```bash
+pip install -e .
+
+## Usage
+
+from simplemath import Calculator, Accumulator
+
+c = Calculator()
+print(c.add(2, 3))  # 5
+
+a = Accumulator(10)
+print(a.add(7))     # 17

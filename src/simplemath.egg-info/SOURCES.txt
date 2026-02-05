@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/simplemath/__init__.py
+src/simplemath/arithmetic.py
+src/simplemath.egg-info/PKG-INFO
+src/simplemath.egg-info/SOURCES.txt
+src/simplemath.egg-info/dependency_links.txt
+src/simplemath.egg-info/top_level.txt
+tests/test_arithmetic.py
